@@ -1,0 +1,9 @@
+{
+	"id": "com.btg.zork",
+	"version": "0.0.2",
+	"vendor": "BananaTech Games",
+	"type": "web",
+	"main": "index.html",
+	"title": "Zork",
+	"icon": "icon.png"
+}

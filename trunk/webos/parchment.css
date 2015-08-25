@@ -1,0 +1,197 @@
+.fg-default {
+    color: white;
+}
+
+.fg-default-reversed {
+    color: white;
+}
+
+.fg-black {
+    color: black;
+}
+
+.fg-red {
+    color: red;
+}
+
+.fg-green {
+    color: green;
+}
+
+.fg-yellow {
+    color: yellow;
+}
+
+.fg-blue {
+    color: blue;
+}
+
+.fg-magenta {
+    color: magenta;
+}
+
+.fg-cyan {
+    color: cyan;
+}
+
+.fg-white {
+    color: white;
+}
+
+.bg-default {
+    background: transparent;
+}
+
+.bg-default-reversed {
+    background: black;
+}
+
+.bg-black {
+    background: black;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-green {
+    background: green;
+}
+
+.bg-yellow {
+    background: yellow;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+.bg-magenta {
+    background: magenta;
+}
+
+.bg-cyan {
+    background: cyan;
+}
+
+.bg-white {
+    background: white;
+}
+
+body {
+    font-family: palatino, georgia, verdana, arial, sans-serif;
+    text-align: center;
+	margin-top: 0px;
+    margin-bottom: 10px;
+	padding: 0px;
+}
+
+#Cb-ground {
+	background: blue;
+	padding-left: 4px;
+	padding-right: 4px;
+	width: 316px;
+	height: 452px;
+	position: fixed;
+}
+
+/*#content-container {
+	background: transparent;
+	/*width:320px;
+	height:240px;
+	overflow: hidden;
+}*/
+
+.buffered-window {
+    text-align: center;
+    margin: 0 auto;
+    font-family: monaco, andale mono, lucidatypewriter, courier, courier new, monospace;
+    font-size: 10pt;
+    top: 0px;
+    left: 5px;
+    z-index: 0;
+}
+
+#top-window {
+	color: black;
+	background: green;
+	text-align: left;
+	left: -4px;
+	top: -4px;
+    z-index: 1;	
+	font-size: 10pt;
+	position: fixed;
+}
+
+#content {
+	font-size: 12pt;
+    text-align: left;
+	position: absolute;
+}
+
+#editing-cursor {
+	font-size: 10pt;
+    text-decoration: underline;
+}
+
+#cursor {
+    text-decoration: blink;
+}
+
+.finished-input {
+    opacity: 0.5;
+}
+
+.z-roman {
+}
+
+.z-bold {
+    font-variant: small-caps;
+}
+
+.z-italic {
+    font-style: italic;
+}
+
+.z-fixed-pitch {
+    font-family: monaco, andale mono, lucidatypewriter, courier, courier new, monospace;
+    white-space: pre;
+    font-size: 10pt;
+}
+
+.z-breaking-whitespace {
+    white-space: normal;
+}
+
+#top-window .z-breaking-whitespace {
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+.error {
+    background: red;
+    color: white;
+	width: 313px;
+    padding: 2px;
+    margin: 2px;
+}
+
+#loading-screen {
+	width: 320px;
+    padding: 0px;
+    text-align: center;
+    color: gray;
+    font-size: 10pt;
+}
+
+#progress-text {
+    font-size: 10pt;
+}
+
+.iphone-visible {
+    opacity: 0.5;
+}
+
+.iphone-invisible {
+    opacity: 0;
+}

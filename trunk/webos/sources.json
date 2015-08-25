@@ -1,0 +1,16 @@
+[
+	{"source": "javascripts\/jquery.min.js"},
+	{"source": "javascripts\/extras.min.js"},
+	{"source": "javascripts\/gnusto-engine.js"},
+	{"source": "javascripts\/parchment.min.js"},
+	
+    {"source": "app\/assistants\/stage-assistant.js"},
+    {
+        "source": "app\/assistants\/title-assistant.js",
+        "scenes": "title"
+    },
+    {
+        "source": "app\/assistants\/content-assistant.js",
+        "scenes": "content"
+    }
+]
